@@ -1,0 +1,177 @@
+html,
+body {
+	background-color: #181a1b;
+}
+
+h3 {
+	text-align: center;
+	margin-top: 0.5px;
+	font-family: 'Poppins', sans-serif;
+	color: #3c6cba;
+	font-size: 25px;
+}
+
+h4 {
+	text-align: center;
+	margin-top: 0.5px;
+	font-family: 'Poppins', sans-serif;
+	color: #3c6cba;
+}
+
+h5 {
+	text-align: center;
+	margin-top: 0.5px;
+	font-family: 'Poppins', sans-serif;
+	color: #3c6cba;
+}
+
+h6 {
+	text-align: center;
+	margin-top: 0.5px;
+	font-family: 'Poppins', sans-serif;
+	color: #3c6cba;
+}
+
+p {
+	text-align: center;
+	margin-top: 0.5px;
+	font-family: 'Poppins', sans-serif;
+	color: #3c6cba;
+}
+
+hr {
+	color: #3c6cba;
+	width: 80%;
+	justify-content: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	opacity: 80%;
+}
+
+img {
+    width: 55%;
+    transition: transform 0.4s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.2);
+}
+
+.background1 {
+	vertical-align: middle;
+	justify-content: center;
+}
+
+.typewriter {
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+}
+
+.typewriter h1::after {
+    content: "|";
+    color: #3c6cba;
+    display: inline-block;
+    vertical-align: middle;
+    animation: blink 1s infinite ease-in-out;
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+.header1 {
+	text-align: center;
+	margin-bottom: 0.5px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 35px;
+	color: #3c6cba;
+}
+
+.header2 {
+	text-align: center;
+	margin-top: 0.5px;
+	font-family: 'Poppins', sans-serif;
+	color: #3c6cba;
+	font-weight: 200;
+}
+
+.topnav {
+  	background-color: #181a1b;
+  	overflow: hidden;
+  	font-family: 'Poppins', sans-serif;
+  	text-decoration: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.topnav a {
+  	float: left;
+  	color: #fff;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+  	font-size: 17px;
+  	border-radius: 25px;
+  	font-weight: 200;
+}
+
+.topnav a:hover {
+  	background-color: #ddd;
+  	color: black;
+}
+
+.topnav a.active {
+  	background-color: #3c6cba;
+  	color: white;
+}
+
+.img1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.performance {
+	line-height: 5px;
+	font-weight: 400;
+}
+
+footer {
+	color: #3c6cba;
+	width: 100%;
+	text-align: center;
+}
+
+.socialmedia {
+	font-weight: 600;
+	font-size: 25px;
+	line-height: 0;
+}
+
+.follow_me {
+	text-align: center;
+	font-size: 12px;
+	font-family: 'Poppins', sans-serif;
+	color: #3c6cba;
+	line-height: 0;
+	margin-bottom: 35px;
+}
+
+.sclinks {
+	color: #3c6cba;
+	font-size: 30px;
+}
+
+.sclinks a:visited {
+  	color: #3c6cba;
+}

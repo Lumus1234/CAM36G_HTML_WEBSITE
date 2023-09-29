@@ -1,0 +1,41 @@
+.gallery {
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	font-size: 35px;
+	color: #3c6cba;
+}
+
+.grid {
+  	display: flex;
+  	flex-wrap: wrap;
+  	padding: 4px;
+  	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.kolumn {
+  	flex: 25%;
+  	max-width: 25%;
+  	padding: 4px;
+}
+
+.kolumn img {
+  	margin-top: 8px;
+  	vertical-align: middle;
+  	width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .kolumn {
+   	flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .kolumn {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
