@@ -1,7 +1,7 @@
 # CAM36G
 A fun little website that i created as a school project
 
-This website was created for the pourpose to showcase my car and to fill my protfolio. You may use the website as a template of some sort to create your own.
+This website was created for the pourpose to showcase my car and to fill my protfolio and learn to use github. You may use the website as a template of some sort to create your own. The website may or may not get updated in the future.
 
 index.html preview:
 <img width="960" alt="Skärmbild 2023-09-29 095555" src="https://github.com/Lumus123dev/CAM36G/assets/88397076/e5c9e741-cae4-485d-aa26-d8dea9e3166f">
